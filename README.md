@@ -115,6 +115,17 @@ Optimum alpha = 10.0 for ridge and 0.001 for lasso model.
 
 - Out of 45 features in the final model, top 10 features in order of descending importance are ['1stFlrSF', '2ndFlrSF', 'OverallQual', 'BsmtFinSF1', 'OverallCond','LotArea', 'MSZoning_RL', 'SaleCondition_Normal', 'Condition1_Norm','SaleType_New']
 
+   - 1stFlrSF	0.121192
+   - 2ndFlrSF	0.110654
+   - OverallQual	0.088439
+   - BsmtFinSF1	0.047700
+   - OverallCond	0.044622
+   - LotArea	0.032116
+   - MSZoning_RL	0.027356
+   - SaleCondition_Normal	0.026485
+   - Condition1_Norm	0.024909
+   - SaleType_New	0.024793
+
 
 - Model coefficients are listed in a table along with the corresponding features , for example natural log of SalePrice will change by 0.121192 with unit change in the feature '1stFlrSF' when all the features remain constant. Negative sign in the coefficient signifies negative correlation between the predictor and target variable. 
 
